@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    background-color: #fff;
+    height: 430px;
+    width: 350px;
+    border-radius:15px ;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.heading{
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 0px;
+    transform: translate(0%,-70%);
+}
+
+.info{
+    margin-top: 30px;
+    font-size: 18px;
+    padding: 10px;
+    transform: translate(0%,-50%);
+
+}
+
+.tikk{
+    color: #fff;
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 130px;
+    width: 130px;
+    clip-path: circle(50% at 50% 50%);
+    background-color: #ccff33;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+    transform: translate(0%,-50%);
+}
+
+button{
+    margin-top: 0px;
+    background-color:#ccff33 ;
+    color: white;
+    font-size: 18px;
+    font-weight: 800;
+    border: none;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+    height: 50px;
+    width: 300px;
+    transform: translate(0%,-60%);
+
+}
+

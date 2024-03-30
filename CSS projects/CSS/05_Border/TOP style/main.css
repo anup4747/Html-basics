@@ -1,0 +1,52 @@
+/* border-top-style: dotted ; */
+/* border-top-style: dashed ; */
+/* border-top-style: solid ; */
+/* border-top-style: groove ; */
+/* border-top-style: inset ; */
+/* border-top-style: outset ; */
+/* border-top-style: ridge ; */
+/* border-top-style: double ; */
+/* border-top-style: hidden ; */
+/* border-top-style: initial ; */
+
+/* You can use these like for top,left,right,and,bottom also */
+/* like */
+/* border-left-style: inset ; */
+/* border-right-style: inset ; */
+/* border-top-style: inset ; */
+/* border-bottom-style: inset ; */
+
+body{
+    /* Background Color */
+    background-color: orange;
+}
+/* You can combine h1,h2 anything by using ' , ' */
+
+h1 ,h2{
+    /* Heading */
+    color: black;
+    /* position */
+    text-align: center;
+    border-bottom-style: inherit ;
+    border-bottom: dotted darkgreen;
+
+}
+p{
+    /* Paragraph */
+    font-size: 30px; /* Font Size */
+    color: purple;
+    font-family: sans-serif;
+}
+
+/* using id of section in HTML */
+#introduction{
+    background-color: yellow;
+}
+
+/* using class of h2 haeding and paragraph */
+.informationh{
+    background-color: blue;
+}
+.informationp{
+    background-color: gray;
+}

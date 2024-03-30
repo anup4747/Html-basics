@@ -1,0 +1,18 @@
+body{
+    height: 100%;
+    width: auto;
+    background-image: url("wp6542946-dark-gamer-4k-pc-wallpapers.jpg");
+    /* background-repeat: repeat-x; */
+    /* repeats the image */
+    background-attachment: fixed;
+    /* Image will not scroll (it will be Fixed) */
+    background-position: center;
+    /* Image position */}
+
+
+h1{
+    color: white;
+    background: black;
+    border-style: double;
+    border-color: red;
+}
